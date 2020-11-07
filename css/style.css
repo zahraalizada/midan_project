@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* list-style: none; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -63,7 +62,7 @@ body {
 
 header {
     width: 100%;
-    height: 8vh;
+    height: 60px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -108,7 +107,7 @@ section {
 
 .gallery-items {
     width: 32%;
-    height: 55vh;
+    height: 430px;
     background-color: #ffffff;
     margin-top: 30px;
     border: 1px solid rgba(150, 135, 68, 0.1);
@@ -123,82 +122,13 @@ section {
     max-width: 100%;
     height: 240px;
     margin-bottom: 30px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
 /* gallery images start */
-
-.bg-img1 {
-    background: url(../img/img_1.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img2 {
-    background: url(../img/img_2.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img3 {
-    background: url(../img/img_3.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img4 {
-    background: url(../img/img_4.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img5 {
-    background: url(../img/img_5.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img6 {
-    background: url(../img/img_6.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img7 {
-    background: url(../img/img_7.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img8 {
-    background: url(../img/img_8.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img9 {
-    background: url(../img/img_9.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img10 {
-    background: url(../img/img_10.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img11 {
-    background: url(../img/img_11.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.bg-img12 {
-    background: url(../img/img_12.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 
 
 /* gallery images end */
@@ -224,7 +154,7 @@ section {
 
 .next-page {
     width: 100%;
-    height: 10vh;
+    height: 60px;
     margin-top: 30px;
 }
 
@@ -253,7 +183,7 @@ section {
 
 footer {
     width: 100%;
-    height: 30vh;
+    height: 200px;
 }
 
 .foot-nav {
@@ -301,14 +231,14 @@ footer {
 
 #About {
     width: 100%;
-    height: 115vh;
+    height: 900px;
     background-color: #fafafa;
     padding-bottom: 150px;
 }
 
 .about-items {
     width: 100%;
-    height: 110vh;
+    height: 800px;
     background: #ffffff;
     padding-bottom: 70px;
 }
@@ -364,7 +294,8 @@ footer {
 
 #SliderArea {
     width: 100%;
-    height: 120vh;
+    height: 900px;
+    background-color: aqua;
     background: #ffffff;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -401,7 +332,7 @@ footer {
 
 #h-Area {
     width: 100%;
-    height: 55vh;
+    height: 430px;
     padding: 30px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
@@ -422,7 +353,7 @@ footer {
 .ordered-list,
 .unordered-list {
     width: 100%;
-    height: 25vh;
+    height: 180px;
     background: #ffffff;
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -448,14 +379,14 @@ footer {
 
 .border-left {
     width: 100%;
-    height: 20vh;
+    height: 150px;
     background: #ffffff;
     padding-top: 30px;
 }
 
 .border-left p {
     width: 90%;
-    height: 9vh;
+    height: 55px;
     margin-left: 60px;
     padding-left: 20px;
     border-left: 3px solid #000000;
@@ -471,7 +402,6 @@ footer {
 #iframeArea {
     width: 100%;
     height: auto;
-    line-height: ;
 }
 
 
@@ -479,14 +409,13 @@ footer {
 
 .iframe-txt {
     width: 100%;
-    height: 112vh;
+    height: 700px;
     margin: 0 auto;
-    /* background-color: rosybrown; */
 }
 
 .iframe-js {
     width: 100%;
-    height: 55vh;
+    height: 400px;
     margin: 0 auto;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -501,7 +430,7 @@ footer {
 
 .txt-p {
     width: 100%;
-    height: 6vh;
+    height: 40px;
     background: #ffffff;
 }
 
@@ -515,19 +444,20 @@ footer {
 
 .iframe-css {
     width: 100%;
-    height: 35vh;
+    height: 270px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .txt-p2 {
     width: 100%;
-    height: 16vh;
+    /* height: 16vh; */
+    height: 200px;
     background: #ffffff;
     padding-top: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.txt-p2>p {
+.txt-p2 p {
     width: 90%;
     height: 100%;
     margin: 0 auto;
@@ -555,7 +485,7 @@ footer {
 
 .ted {
     width: 100%;
-    height: 60vh;
+    height: 500px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -568,7 +498,7 @@ footer {
 
 .audio {
     width: 100%;
-    height: 30vh;
+    height: 200px;
     background: #ffffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -585,7 +515,7 @@ footer {
 
 #ImgInpArea {
     width: 100%;
-    height: 95vh;
+    height: 730px;
     padding: 50px;
     padding-top: 20px;
     margin-bottom: 10px;
@@ -594,7 +524,7 @@ footer {
 
 .image-area {
     width: 100%;
-    height: 70vh;
+    height: 530px;
     background: url(../img/about.jpeg) no-repeat;
     background-size: contain;
     background-position: center center;
@@ -613,7 +543,7 @@ footer {
 
 .bottom {
     width: 100%;
-    height: 8vh;
+    height: 70px;
     background-color: #fafafa;
 }
 
